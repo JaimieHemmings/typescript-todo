@@ -1,5 +1,6 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
+  base: 'https://jaimiehemmings.github.io/typescript-todo/',
   mount: {
     public: { url: '/', static: true },
     src: { url: '/dist' },
